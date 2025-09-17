@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kopi Kenangan</title>
+    <!-- fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- external css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <a href="#hero" class="navbar-logo">kopi<span>kenangan</span></a>
+      <div class="navbar-nav">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="menu-toggle"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- hero -->
+    <section class="hero" id="hero">
+      <div class="content">
+        <h1>Mari Nikmati Secangkir <span>kopi</span></h1>
+        <p>
+          Dalam aroma kopi, kutemukan tenang, Dalam hangatnya,
+          <span
+            >lahir semangat, Dalam setiap teguk, ada cerita yang abadi.</span
+          >
+        </p>
+        <a href="#menu" class="cta">Beli Sekarang</a>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="about">
+      <h2>Tentang <span>Kami</span></h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/about-img.jpg" alt="tentang kami" />
+        </div>
+
+        <!-- content  -->
+        <div class="content">
+          <h3>Kenapa Memilih Kopi Kami</h3>
+          <p>
+            Ada kopi yang hanya sekadar lewat di tenggorokan, dan ada kopi yang
+            meninggalkan kesan di hati. Kopi kami hadir dengan rasa yang jujur,
+            diracik dari biji terbaik, dan disajikan dengan sepenuh hati.
+          </p>
+          <p>
+            Setiap tegukan bukan hanya minuman, melainkan puisi yang
+            membangunkan mimpi dan menghangatkan jiwa. Ia memberi energi baru
+            untuk melangkah dan menjalani hari.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- menu -->
+    <section id="menu" class="menu">
+      <h2>Menu <span>Tersedia</span></h2>
+      <p>
+        Temukan racikan terbaik yang kami sajikan khusus untuk Anda. Dari kopi
+        hangat penuh cerita, minuman segar yang menyegarkan jiwa yang melengkapi
+        setiap momen.
+      </p>
+      <p>
+        Setiap sajian dibuat dengan bahan pilihan dan sentuhan cinta,
+        menghadirkan pengalaman rasa yang tak hanya memanjakan lidah, tapi juga
+        hati.
+      </p>
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/menu/menu1.jpg" alt="espresso" />
+          <h3 class="menu-card-title">Espresso</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/menu3.jpg" alt="manis" />
+          <h3 class="menu-card-title">Kopi Manis</h3>
+          <p class="menu-card-price">IDR 25K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/menu4.jpg" alt="kopi" />
+          <h3 class="menu-card-title">Kopi Pahit</h3>
+          <p class="menu-card-price">IDR 32K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/menu5.jpg" alt="latte" />
+          <h3 class="menu-card-title">Kopi Latte</h3>
+          <p class="menu-card-price">IDR 40K</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>Silakan kunjungi kedai kopi kami atau hubungi lewat form di bawah.</p>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.081720875075!2d110.36708367476707!3d-7.880056692176246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a579f1486a7b7%3A0x9d3e7eaf7d77c9b2!2sKedai%20Kopi!5e0!3m2!1sid!2sid!4v1694600000000!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+        <br />
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="email" placeholder="email" />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="No handphone" />
+          </div>
+
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- footer start -->
+    <footer>
+      <div class="socialmedia">
+        <a href="#"><i data-feather="linkedin"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+        <a
+          href="https://www.instagram.com/ryannndrraa_?igsh=MTNwYjY1d3RudHpqYg%3D%3D&utm_source=qr"
+          ><i data-feather="instagram"></i
+        ></a>
+      </div>
+      <div class="credit">
+        <p>&copy; 2025 <span>Kopi Kenangan</span>. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <script>
+      feather.replace();
+
+      // toggle navbar
+      const menuToggle = document.querySelector("#menu-toggle");
+      const navbarNav = document.querySelector(".navbar-nav");
+
+      menuToggle.onclick = (e) => {
+        e.preventDefault();
+        navbarNav.classList.toggle("active");
+      };
+    </script>
+  </body>
+</html>
